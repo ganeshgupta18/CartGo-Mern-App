@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build && cd .. && npm --prefix backend install",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install && npm --prefix backend install && npm --prefix frontend install",
+  "framework": "express",
+  "outputDirectory": "frontend/build",
+  "public": false,
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
